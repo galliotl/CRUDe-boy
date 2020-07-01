@@ -18,14 +18,14 @@ const userSchema = new mongoose.Schema(
     isMajor: {
       type: Boolean,
       validate: {
-        validator: (isMajor) => isMajor,
+        validator: (isMajor: boolean) => isMajor,
         message: () => 'User has to be major to signup to the website',
       },
     },
     isPhoneConfirmed: {
       type: Boolean,
       validate: {
-        validator: (isPhoneConfirmed) => isPhoneConfirmed,
+        validator: (isPhoneConfirmed: boolean) => isPhoneConfirmed,
         message: () => 'User has to be major to signup to the website',
       },
     },
