@@ -1,6 +1,6 @@
 {
   "name": "crude-boy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A nodeJs mongoDb CRUD helper",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
