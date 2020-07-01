@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "ES2015",
+    "module": "commonJs",
     "watch": false,
-    "lib": ["dom", "es2017"],
+    "strict": true,
     "rootDir": "./src",
     "outDir": "./dist",
     "allowSyntheticDefaultImports": true,
